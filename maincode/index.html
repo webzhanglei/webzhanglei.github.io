@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+		form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+		img{border:0;}
+		ul,li{list-style-type:none;}
+		a{color:#00007F;text-decoration:none;}
+		a:hover{text-decoration:none;}
+		/*=================================*/
+
+		.top a{
+			color: 	#C0C0C0;
+		}
+		.top-1{
+			max-width: 1100px;
+			margin: 0 auto;	
+		}
+		.top{
+			width: 100%;
+			background: #ffffff;
+			height: 60px;
+			overflow: hidden;
+			position: fixed;
+			top: 0;
+			box-shadow: 5px 0px 5px #999999;
+		}
+		.title{
+			font-size: 20px;
+
+		}
+		.nav{
+			margin-left: 20px;
+		}
+		.left{
+			
+			float: left;
+			margin:20px 20px;
+		}
+		.right{
+			float: right;
+			margin:25px 20px
+		}
+		.nav1{
+			text-align: right;
+			margin-right: 20px;
+		}
+	/*=================================*/
+	.banner{
+		background-image: url(img/1.jpg);
+		height: 700px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		margin-top: 10px;
+	}
+	.slogan{
+		color: #ffffff;
+		font-size: 50px;
+		max-width: 450px;
+		margin-left: 10%;
+		padding-top: 150px;
+	}
+	.introduction{
+		color: #ffffff;
+		margin-left: 10%;
+		font-size: 25px;
+		margin-top: 50px;
+	}
+	.call{
+		display:block;
+		text-align: center;
+		font-size: 30px;
+		color:	#32CD32;
+		font-weight: 800;
+		padding-top:100px;
+		transition: all 0.5s  linear;
+	}
+/*=============================================================*/
+
+	.job{
+		border-top: 1px solid  #F0F8FF;
+		margin-top: 40px;
+	}
+	.jobcontent{
+		margin-top: 40px;
+		font-size: 50px;
+		text-align: center;
+		font-weight: bold;
+		color: #696969;
+	}
+	.jobcontent1{
+		margin-top: 20px;
+		font-size: 30px;
+		text-align: center;
+		font-weight: 800;
+		color:#32CD32;
+		transition: all 0.5s  linear;
+	}
+	.img1{
+		margin:0 auto;
+		display: block;
+		margin-top: 100px;
+	}
+/*=============================================================*/
+
+	.bottom{
+		max-width: 1100px;
+		margin: 0 auto;
+		padding: 50px;
+	}
+	.bottomnav{
+		display: inline-block;
+		border: 2px solid 	#F5F5F5;
+		font-size: 50px;
+		margin-left: 50px;
+		height: 150px;
+		width: 300px;
+		line-height: 150px;
+		text-align: center;
+		color: rgba(0,0,0,0.7);
+		transition: all 0.5s  linear;
+	}
+	.bottomnav:hover{
+		color: #32CD32;
+		border: 2px solid 	#32CD32;
+	}
+	.a4:hover{
+		color: 	#00FF00;
+		text-decoration: underline;
+	}
+	.a5{
+		color: #32CD32;
+		margin: 5px;
+	}
+
+
+	.wei{
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		border: 1px solid  #F5F5F5;
+		color: #C0C0C0
+	}
+	.wei1{
+		text-align: center;
+		margin: 10px;
+		color: #C0C0C0;
+	}
+	.wei2{
+		font-size: 12px;
+	}
+	/*二维码*/
+	/*.scr{display: none;}*/
+	.tupian{width: 100px;display: block;}
+	.scroll{position: fixed;bottom: 50px;right: 10px;}
+	.tupian1{display: block;width: 53px;}
+	.scr{position:fixed;bottom: 50px;right: 80px;
+		display: none;
+		transition: all 1s  linear;
+	}
+	/*========响应式设置=====*/
+	.column{
+		width: 45px;
+		height: 35px;
+		background: #DCDCDC;
+		border-radius: 5px;
+		float: right;
+		margin: 10px;
+		display: none;
+	}
+	.column p{height: 8px;width: 25px;margin: 0 auto; border-bottom: 2px solid #808080;}
+	.submenu{background: #ffffff;width: 100%;position: fixed;top:60px;border-top: 1px solid 	#DCDCDC;display: none;}
+	.submenu p{height: 20px; margin:20px 30px;}
+	.nav2{color: #C0C0C0;}
+	@media (max-width: 1100px){
+		.nav,.nav1{
+			display: none;
+		}
+		.column{position: absolute;right: 0px;display: block;}
+		.bottomnav{display: block;
+					width: 100%;
+					margin: 10px 0px;}
+		.img1{width: 100%;margin: 20px 0px 0px;}
+		.banner{height: 100%;}
+		.slogan{font-size: 40px;}
+		.introduction{font-size: 25px;padding-bottom: 100px;}
+		.call{display: none;}
+	}
+
+
+	</style>
+</head>
+<body>
+<!-- 标题 -->
+	<div class="top">
+		<div class="top-1">
+		<div class="left">
+			<a class="title">MainCode | 煮代码</a>
+			<a class="nav" href="#">博客</a>
+			<a class="nav" href="#">难题</a>
+			<a class="nav" href="#">讨论</a>
+			<a class="nav" href="#">电子书</a>
+			<a class="nav" href="#">更多</a>
+		</div>
+		<div class="right">
+			<a class="nav1" href="">登录</a>
+			<a class="nav1" href="">注册</a>
+		</div>
+		<div class="column">
+		<p></p>
+		<p></p>
+		<p></p>
+		</div>
+		</div>		
+	</div>
+	<div class="submenu">
+		<p><a class="nav2" href="#">博客</a></p>
+		<p><a class="nav2" href="#">难题</a></p>
+		<p><a class="nav2" href="#">讨论</a></p>
+		<p><a class="nav2" href="#">电子书</a></p>
+		<p><a class="nav2" href="#">更多</a></p>
+		<p><a class="nav2" href="">登录</a></p>
+		<p><a class="nav2" href="">注册</a></p>
+	</div>
+
+<!-- banner -->
+	<div class="banner">
+		<h2 class="slogan">MainCode | 煮代码</h2>
+		<p class="introduction">代码不仅是一项技术,更是一门艺术!</p>
+		<a href="#" class="call a4">成为代码艺术家,从这里启航!</a>
+	</div>
+<!-- 帮！你找工作 -->
+	<div class="job">
+		<p class="jobcontent">帮！你找工作</p>
+		<p class="jobcontent1 a4">优选面试题，最新，最美，最优</p>
+		<img class="img1" src="img/2.png">
+	</div>
+<!-- 底部 -->
+	<div class="bottom">
+		<a class="bottomnav" href="">学习</a>
+		<a class="bottomnav" href="#">分享</a>
+		<a class="bottomnav" href="#">招聘</a>
+	</div>
+<!-- 尾巴 -->
+	<div class="tail">
+		<p class="wei">友情链接:<a href="#" class="a5 a4">爱站长</a></p>
+		<p class="wei1 ">联系方式：ochenkai@163.com 煮代码|MainCode&nbsp &nbsp &nbsp版权所有:<a class="a5 a4" href="">陈凯</a>|<a class="a5 a4" href="">秦晓强</a>|<a class="a5 a4" href="">吴海洋</a>|<a class="a5 a4" href="">郑建文</a></p>
+		<p class="wei1 wei2">Copyright © 2011-2016 maincode.cn, All Rights Reserved&nbsp &nbsp <a class="a5 a4" href="#">京ICP备16021163号</a></p>
+	</div>
+	<!-- 悬浮图片 -->
+	<div class="scroll">
+		<div class="scr">
+			<img src="img/3.jpg" class="tupian">
+			<img src="img/4.jpg" class="tupian">
+			<img src="img/5.jpg" class="tupian">
+		</div>
+		<div class="tututu">
+			<a href="#"><img src="img/7.png"></a>
+			<img src="img/6.png" class="tupian1">
+		</div>
+		
+	</div>
+</body>
+	<script type="text/javascript">
+		var column=document.getElementsByClassName("column");
+		var onclick=document.getElementsByClassName("submenu");
+		var a = true;
+		column[0].onclick=function () {
+			if (!a) {
+				onclick[0].style.display="none";
+			}
+			else{
+				onclick[0].style.display="block";
+			}
+			a=!a;
+		}
+
+		// window.onload=function(){
+			var btn=document.getElementsByClassName("tupian1")[0];
+			var bt=document.getElementsByClassName("scr")[0];
+			btn.onmouseover=function(){
+				bt.style.display = "block";
+			}
+				btn.onmouseout=function(){
+				bt.style.display = "none";
+			}
+		// }	
+		
+		
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
