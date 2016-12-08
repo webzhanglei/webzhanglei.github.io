@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width =  device-width,user-scalable = no,initial-scale= 1.0,maximum-scale = 1.0"/>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+	<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<style>
+		.banner{
+			text-align: center;
+			padding-top: 250px;
+			padding-bottom: 200px;
+			background: url(img/4.jpg) no-repeat center center;
+			background-size: cover;
+			color: #ffffff;}
+		.daohang{position: fixed;width: 100%;z-index: 1;}
+		.zi1{font-weight:700;font-size: 5em;}
+		i{margin-right: 5px;}
+		span{letter-spacing: 2px;}
+		.ziti{margin-top: 30px;}
+		.ll{width: 50%;border-bottom: 3px solid #DCDCDC;margin: 30px 0px 50px;}
+		.weitu{background: url(img/banner.jpg) no-repeat center center; 
+			background-size: cover;
+			padding-top: 100px;
+			padding-bottom: 80px;}
+		@media (max-width:767px) {
+			.banner{text-align: center;padding-top: 100px;padding-bottom: 100px;}
+			.zi1{font-size: 50px;}
+			.uli{width: 100%;margin-top: 20px;}
+			.xiahua{width: 100%;}		
+		}
+	</style>
+</head>
+<body>
+	<div class="daohang">
+	<nav class="navbar navbar-default">
+		<div class="container container-fluid">
+		<!-- logo -->
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">Start Bootstrap</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavBar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<!-- 菜单 -->
+			<div class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav navbar-right" style="font-weight: bold;">
+  					<li><a href="#">About</a></li>
+  					<li><a href="#">Services</a></li>
+  					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	</div>
+	<!-- barner图 -->
+
+	<div class="banner">
+		<!-- <div class="container"> -->
+			<div class="container">
+			 	<div class="row">
+			 		<div class="col-md-3"></div>
+					<h2 class="col-md-6 zi1">Bootstrap</h2>
+					<div class="col-md-3"></div>
+					</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<h3 class="col-md-6" style="font-weight: bold;">一个简单的Bootstrap模板<hr></h3>
+					<div class="col-md-3"></div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-3"></div>
+
+					<ul class="col-lg-6 list-inline intro-social-buttons">	
+						<li class="uli"><a href="#" role="button" class="btn btn-default btn-lg"  style="font-size: 14px">
+						<i class="glyphicon glyphicon-home"></i>
+						<span class="network-name">TWITTER</span>
+						</a></li>
+						<li class="uli"><a  href="#" role="button" class="btn btn-default btn-lg" style="font-size: 14px">
+							<i class="glyphicon glyphicon-music"></i>
+							<span>GITHUB</span></a>
+						</li>
+						<li class="uli"><a  href="#" role="button" class="btn btn-default btn-lg"  style="font-size: 14px">
+							<i class="glyphicon glyphicon-camera"></i>
+						<span>THENEWSTEP</span></a></li>
+					</ul>
+
+					<div class="col-lg-3"></div>
+				</div>	
+			</div>
+		<!-- </div> -->
+	</div>
+	<!-- 生活不止眼前的苟且:还有以后的 -->
+	<a name="services"></a>
+	<div class="jumbotron">
+		<div class="container" style="background: rgba(238,238,238,0);">
+			<div class="row">
+				<div class="col-lg-5 col-md-6" style="text-align: left;">
+					<div class="ll"></div>
+				<h2>
+					生活不止眼前的苟且:<br>还有以后的
+				</h2>
+				<p class="ziti"  style="font-size: 18px;">生活不止眼前的苟且 <a href="">还有远方的田野</a> 工作只是生活的一部分,所以要抽出时间享受生活. 更要懂得休息,即使你不累!</p></div>
+				<div class="col-lg-2 col-md-0"></div>
+				<div class="col-lg-5 col-md-6">
+				<img src="img/1.png" alt="" class="img-responsive img1">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 上天给我们最公平的礼物就是时间 -->
+		<div class="jumbotron" style="background:#ffffff;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-6 col-lg-push-7 col-md-push-6" style="text-align: left;">
+					<div class="ll"></div>
+					<h2>
+						上天给我们最公平的礼物<br>远就是时间
+					</h2>
+					<p class="ziti "  style="font-size: 18px;">每个人的时间都一样,只要能够分配好,管理好,利用好 <a href="">那么生活就会越来越好!</a> 我坚信一句话,那就是越努力,越幸运!</p>
+				</div>
+				<div class="col-lg-2 col-md-0"></div>
+				<div class="col-lg-5 col-md-6 col-lg-pull-7 col-md-pull-6" >
+					<img src="img/2.png" alt="" class="img-responsive img1">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="jumbotron">
+		<div class="container" style="background: rgba(238,238,238,0);">
+			<div class="row">
+				<div class="col-lg-5 col-md-6" style="text-align: left;">
+					<div class="ll"></div>
+				<h2>
+					珍惜时间<br>远离浪费!
+				</h2>
+				<p class="ziti" style="font-size: 18px;">才可以让生命变得更有意义! <a href="">鸡汤说的多了</a>, 有时不是在提醒他人,<a href="">更多的是提醒自己</a>.</p></div>
+				<div class="col-lg-2 col-md-0"></div>
+				
+				<div class="col-lg-5 col-md-6">
+					<img src="img/3.png" alt="" class="img-responsive img1">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 尾部图 -->
+	<div class="weitu">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<h2 style="color: #ffffff;font-size: 40px;">Start Bootstrap:</h2>
+				</div>
+
+  					<ul class="col-lg-7 list-inline intro-social-buttons" style="margin-top: 30px;">	
+						<li class="uli"><a href="#" role="button" class="btn btn-default btn-lg"  style="font-size: 14px">
+						<i class="glyphicon glyphicon-home"></i>
+						<span class="network-name">TWITTER</span>
+						</a></li>
+						<li class="uli"><a  href="#" role="button" class="btn btn-default btn-lg" style="font-size: 14px">
+							<i class="glyphicon glyphicon-music"></i>
+							<span>GITHUB</span></a>
+						</li>
+						<li class="uli"><a  href="#" role="button" class="btn btn-default btn-lg"  style="font-size: 14px">
+							<i class="glyphicon glyphicon-camera"></i>
+						<span>THENEWSTEP</span></a></li>
+					</ul>
+  				
+  				</div>
+			</div>	
+		</div>
+	<!-- 尾部导航 -->
+	<div class="container">
+			<ul class="nav nav-pills" role="tablist" style="font-weight: bold;">
+				<li ><a href="#">Home</a></li>
+  				<li><a href="#">About</a></li>
+  				<li><a href="#">Services</a></li>
+  				<li><a href="#">Contact</a></li>
+			</ul>		
+	</div>
+	<!-- 最后 -->
+	<div class="container">
+		<p class="copyright text-muted small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 课后帮 2016. All Rights Reserved</p>
+	</div>
+
+</body>
+</html>
